@@ -1,0 +1,20 @@
+.card{
+  display:flex;
+  gap:16px;
+  border-radius:14px;
+  overflow:hidden;
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  box-shadow: var(--shadow);
+  min-height:120px;
+}
+.image{
+  width:160px;
+  object-fit:cover;
+  display:block;
+}
+.content{ padding:14px 18px; flex:1; display:flex; flex-direction:column; justify-content:space-between; }
+.content h3{ font-size:1.05rem; margin-bottom:6px; }
+.dest{ color:var(--accent-2); font-weight:600; font-size:0.9rem; }
+.desc{ color:var(--muted); margin-top:8px; font-size:0.95rem; }
+.actions{ margin-top:10px; display:flex; gap:8px; justify-content:flex-end; }
+.view{ color:var(--accent-2); text-decoration:none; font-weight:700; }

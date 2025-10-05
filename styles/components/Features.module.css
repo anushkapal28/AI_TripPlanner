@@ -1,0 +1,47 @@
+.featuresSection {
+  background-color:linear-gradient(180deg, rgba(7,18,36,0.6), rgba(7,18,36,0.3));
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.featuresSection h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.featuresGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.featureCard {
+  background: white;
+  border-radius: 12px;
+  padding: 30px 20px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.featureCard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+.icon {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+}
+
+.featureCard h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.featureCard p {
+  color: #666;
+  font-size: 0.95rem;
+}

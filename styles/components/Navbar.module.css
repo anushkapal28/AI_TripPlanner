@@ -1,0 +1,41 @@
+.header{
+  backdrop-filter: blur(6px);
+  padding: 18px 0;
+  position: sticky;
+  top: 0;
+  z-index: 60;
+  background: linear-gradient(180deg, rgba(7,18,36,0.6), rgba(7,18,36,0.3));
+  border-bottom: 1px solid rgba(255,255,255,0.03);
+}
+.brand{ display:flex; gap:10px; align-items:center; text-decoration:none; color:inherit; }
+.logo{ font-size:20px; }
+.title{ font-weight:700; font-size:1.1rem; }
+.nav{ display:flex; gap:18px; align-items:center; }
+.nav a{ color: rgb(255, 255, 255); text-decoration:none; font-weight:400; }
+.cta{
+  background: linear-gradient(90deg,var(--accent),var(--accent-2));
+  color:#000000;
+  padding:8px 14px;
+  border-radius:12px;
+  transition:transform .18s ease;
+  text-decoration:none;
+}
+.cta:hover{ transform:translateY(-3px) }
+@media (max-width:700px){ .nav{ gap:10px; } }
+/* styles/components/Navbar.module.css */
+
+.authButton {
+  margin-left: 12px;
+  padding: 6px 14px;
+  border-radius: 6px;
+  border: 1px solid #4CAF50;
+  color: #4CAF50;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.authButton:hover {
+  background-color: #4CAF50;
+  color: white;
+}
